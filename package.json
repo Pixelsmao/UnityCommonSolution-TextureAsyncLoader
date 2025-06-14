@@ -1,0 +1,27 @@
+{
+  "name": "com.pixelsmao.unitycommonsolution.nativetextureasyncloader",
+  "version": "1.0.0",
+  "displayName": "Pixelsmao.UnityCommonSolution.NativeTextureAsyncLoader",
+  "description": "Unity Native Input Listener 是一个通过系统底层API实现的输入监听工具库，专门用于解决Unity在多线程调度或后台运行时无法响应输入事件的局限性。它支持全局键盘和鼠标输入监听，适用于需要跨线程、跨窗口或Unity处于后台时的输入处理场景。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Pixelsmao",
+    "email": "Pixelsmao@163.com"
+  },
+  "keywords": [
+    "unity",
+    "texture",
+    "image",
+    "async"
+  ],
+  "documentation": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pixelsmao/UnityCommonSolution.UnityNativeInputListener.git"
+  },
+  "dependencies": {
+    "com.unity.burst": "1.8.19",
+    "com.unity.mathematics": "1.2.6",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  }
+}
