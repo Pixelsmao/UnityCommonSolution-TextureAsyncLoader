@@ -1,8 +1,8 @@
 {
-  "name": "com.pixelsmao.unitycommonsolution.nativetextureasyncloader",
+  "name": "com.pixelsmao.unitycommonsolution.textureasyncloader",
   "version": "1.0.0",
-  "displayName": "Pixelsmao.UnityCommonSolution.NativeTextureAsyncLoader",
-  "description": "Unity Native Input Listener 是一个通过系统底层API实现的输入监听工具库，专门用于解决Unity在多线程调度或后台运行时无法响应输入事件的局限性。它支持全局键盘和鼠标输入监听，适用于需要跨线程、跨窗口或Unity处于后台时的输入处理场景。",
+  "displayName": "Pixelsmao.UnityCommonSolution.TextureAsyncLoader",
+  "description": "本仓库是基于UnityAsyncImageLoader v0.1.2在`Unity2021.3`\n版本开发，且原始代码已经包含在仓库中。\n本包包含以下主要功能：\n\n1. 图像加载、图像解码和Mipmap生成的工作转移到其他线程中，它可以使游戏运行更加流畅，并减少在加载大图像时Unity主线程的卡顿。\n\n2. 将加载后的纹理数据进行加工，符合POT纹理的尺寸要求。\n3. 运行时更改纹理尺寸，可在运行时压缩为ASTC和DXT5格式，以节省内存空间。\n4. 创建`Texture2DInfo`类包装纹理数据。\n5. 增加`Texture2D`类相关的实用拓展方法。",
   "unity": "2021.3",
   "author": {
     "name": "Pixelsmao",
@@ -17,7 +17,7 @@
   "documentation": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pixelsmao/UnityCommonSolution.UnityNativeInputListener.git"
+    "url": "https://github.com/Pixelsmao/UnityCommonSolution-TextureAsyncLoader.git"
   },
   "dependencies": {
     "com.unity.burst": "1.8.19",
